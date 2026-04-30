@@ -17,25 +17,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Project Structure
-
-```
-├── main.py                    # Pipeline execution
-├── src/
-│   ├── data_collection.py     # Data download
-│   ├── hurst_calculator.py    # Hurst exponent computation
-│   ├── feature_engineering.py # Feature creation
-│   ├── model_training.py      # ML training
-│   └── visualize_results.py   # Backtesting
-├── data/                      # Raw and processed data
-├── models/                    # Trained models
-└── results/                   # Performance outputs
-```
-
-## Dependencies
-
-pandas, numpy, matplotlib, scikit-learn, xgboost, yfinance, ta, hurst, seaborn
-
 ## Methodology
 
 1. Download historical NIFTY 50 data (training: pre-2019, test: 2019+)
